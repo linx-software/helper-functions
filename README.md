@@ -12,3 +12,8 @@ Small/reusable helper or 'utility' functions for common pieces of functionality.
 #### Strings
 
 - GenerateRandomStr
+
+#### File related
+
+- GetFileNameWithExtensionFromPath
+- GetFileNameWithoutExtension
