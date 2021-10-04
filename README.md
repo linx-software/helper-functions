@@ -13,7 +13,7 @@ Small/reusable helper or 'utility' functions for common pieces of functionality.
 
 - GenerateRandomStr
 
-#### File related
+#### File and path related
 
 - GetFileNameWithExtensionFromPath
 - GetFileNameWithoutExtension
