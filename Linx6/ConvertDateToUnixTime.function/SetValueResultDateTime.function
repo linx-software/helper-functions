@@ -18,7 +18,7 @@
       "Value": {
         "Expression": "CSharpFunction",
         "CompiledExpression": "={0}",
-        "Type": "Compiled:DateTime"
+        "Type": "Compiled:Double"
       },
       "ValueType": "Linx.CSharpExpression"
     }

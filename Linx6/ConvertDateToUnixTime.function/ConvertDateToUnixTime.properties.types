@@ -2,12 +2,12 @@
   {
     "Type": "Generated",
     "Value": {
-      "Id": "m2mw",
+      "Id": "HuHJ",
       "Properties": [
         {
           "Id": "cJQb",
           "Name": "time",
-          "Type": "Compiled:String",
+          "Type": "Compiled:DateTime",
           "Access": "ReadWrite"
         }
       ]

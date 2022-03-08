@@ -2,7 +2,7 @@
   "Properties": [
     {
       "Id": "cJQb",
-      "Type": "Compiled:String",
+      "Type": "Compiled:DateTime",
       "ValueUsage": "RuntimeRead",
       "Value": {
         "Expression": "$.System.CurrentDateTime.ToUniversalTime()",
@@ -17,11 +17,11 @@
       "ValueUsage": "DesignTime",
       "Value": {
         "Id": "h6OP",
-        "Name": "ConvertUnixTimestampToDate",
-        "Parameters": "Generated:m2mw",
+        "Name": "ConvertDateToUnixTime",
+        "Parameters": "Generated:HuHJ",
         "Result": "Compiled:Int64",
         "IsValid": true,
-        "QualifiedPath": "PC:ConvertUnixTimestampToDate"
+        "QualifiedPath": "PC:ConvertDateToUnixTime"
       },
       "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null"
     },

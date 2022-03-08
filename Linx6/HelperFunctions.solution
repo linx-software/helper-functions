@@ -12,7 +12,7 @@
   "Items": [
     "CalcTokenExpiryTime.function",
     "ConvertUnixTimestampToDate.function",
-    "ConvertUnixTimestampToDate (2).function",
+    "ConvertDateToUnixTime.function",
     "GenerateRandomString.function",
     "GetFileNameWithExtensionFromPath.function",
     "GetFileNameWithoutExtension.function",
