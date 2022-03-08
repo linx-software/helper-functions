@@ -1,0 +1,39 @@
+{
+  "Properties": [
+    {
+      "Id": "SNah",
+      "Type": "Compiled:DateTime",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.System.CurrentDateTime.ToUniversalTime()",
+        "CompiledExpression": "={0}.ToUniversalTime()",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Process",
+      "Type": "Compiled:Twenty57.Linx.Interfaces.StandardComponent.IProcessReference, Twenty57.Linx.Interfaces.StandardComponent, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "Id": "Q81W",
+        "Name": "ConvertUnixTimestampToDate",
+        "Parameters": "Generated:cZXw",
+        "Result": "Compiled:Int64",
+        "IsValid": true,
+        "QualifiedPath": "PC:ConvertUnixTimestampToDate"
+      },
+      "ValueType": "Twenty57.Linx.Domain.ProcessReference, Twenty57.Linx.Domain, Version=6.0.3.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "Id": "ParameterNameMapping",
+      "Type": "Compiled:System.Collections.Generic.IDictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {
+        "SNah": "dateTime"
+      },
+      "ValueType": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "Result": "Compiled:Int64"
+}

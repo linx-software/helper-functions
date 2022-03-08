@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "length",
+      "Type": "Compiled:Int32",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.length",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Function         ​",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "string Function(int length)\r\n{\r\n var characters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\r\n            var Charsarr = new char[8];\r\n            var random = new Random();\r\n\r\n            for (int i = 0; i < Charsarr.Length; i++)\r\n            {\r\n                Charsarr[i] = characters[random.Next(characters.Length)];\r\n            }\r\n\r\n            var resultString = new String(Charsarr);\r\n            return resultString;\r\n}"
+    },
+    {
+      "Id": "MethodBody",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "var characters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";\r\n            var Charsarr = new char[8];\r\n            var random = new Random();\r\n\r\n            for (int i = 0; i < Charsarr.Length; i++)\r\n            {\r\n                Charsarr[i] = characters[random.Next(characters.Length)];\r\n            }\r\n\r\n            var resultString = new String(Charsarr);\r\n            return resultString;"
+    },
+    {
+      "Id": "IsCodeValid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "ErrorMessage",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    }
+  ],
+  "Result": "Compiled:String"
+}

@@ -1,0 +1,40 @@
+{
+  "Properties": [
+    {
+      "Id": "Function         ​",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "string Function(string path)\r\n{\r\n        return System.IO.Path.GetFileName(path);\r\n}"
+    },
+    {
+      "Id": "MethodBody",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "return System.IO.Path.GetFileName(path);"
+    },
+    {
+      "Id": "path",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.path",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "IsCodeValid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "ErrorMessage",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    }
+  ],
+  "Result": "Compiled:String"
+}

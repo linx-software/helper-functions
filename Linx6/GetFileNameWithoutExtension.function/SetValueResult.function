@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Source",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "$.Parameters.fileNameWithExtension.Substring(0, $.Parameters.fileNameWithExtension.LastIndexOf(\".\"))",
+        "CompiledExpression": "={1}.Substring(0,{0}.LastIndexOf(\".\"))",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Target",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

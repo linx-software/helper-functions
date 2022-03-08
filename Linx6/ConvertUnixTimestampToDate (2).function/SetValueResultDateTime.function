@@ -1,0 +1,26 @@
+{
+  "Properties": [
+    {
+      "Id": "Target",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeWrite",
+      "Value": {
+        "Expression": "$.Result",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:Int64"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    },
+    {
+      "Id": "Source",
+      "Type": "Compiled:Int64",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CSharpFunction",
+        "CompiledExpression": "={0}",
+        "Type": "Compiled:DateTime"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ]
+}

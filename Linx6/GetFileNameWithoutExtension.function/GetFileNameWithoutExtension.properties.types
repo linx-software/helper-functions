@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "vStJ",
+      "Properties": [
+        {
+          "Id": "VwYp",
+          "Name": "fileNameWithExtension",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

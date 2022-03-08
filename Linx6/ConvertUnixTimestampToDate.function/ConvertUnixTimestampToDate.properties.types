@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "cZXw",
+      "Properties": [
+        {
+          "Id": "SNah",
+          "Name": "dateTime",
+          "Type": "Compiled:DateTime",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

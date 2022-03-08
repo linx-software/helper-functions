@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "EtwB",
+      "Properties": [
+        {
+          "Id": "GzH0",
+          "Name": "length",
+          "Type": "Compiled:Int64",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]
